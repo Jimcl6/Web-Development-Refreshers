@@ -1,0 +1,57 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #3d405b;
+    border: 2px solid #000;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: #81b29a;
+}
+
+
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+
+/* Absolute position relative will automatically be prioritized and 
+implement the position property onto our element. */
+#absolute {
+    position: relative;
+}
+
+/* This absolute position property will only apply to the seleted element.
+However if left without the relative property value. the
+the selected element will be automatically placed on the page itself, 
+removing itself from the document flow, the element is positioned to
+its closest ancestor.*/
+#absolute #middle {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/* This position property value will remove the element from the 
+normal document flow, and will position the element
+to its initial containing block. Hence, making it seem like it's stuck on the viewport.*/
+#fixed #middle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#sticky #middle {
+    position: sticky;
+    top: 100px;
+    left: 20px;
+}
