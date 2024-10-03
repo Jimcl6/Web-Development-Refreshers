@@ -1,0 +1,13 @@
+#transition-circle #square-to-circle {
+    width: 100px;
+    height: 100px;
+    background-color: darkslateblue;
+    transition-duration: 500ms;
+}
+
+#transition-circle #square-to-circle:hover {
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: blueviolet;
+}

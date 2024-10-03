@@ -51,7 +51,7 @@ to its initial containing block. Hence, making it seem like it's stuck on the vi
 }
 
 #sticky #middle {
+
     position: sticky;
-    top: 100px;
-    left: 20px;
+    top: 10px;
 }
