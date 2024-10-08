@@ -1,0 +1,23 @@
+section {
+    /* background-color: this allows us to set a colored background on our element. */
+    background-color: purple;
+    
+    /* background-image: this allows us to use images using url/links as a background for our html element. */
+    background-image: url('https://gratisography.com/wp-content/uploads/2024/03/gratisography-funflower-800x525.jpg');
+    
+    /* background-position: this would display the sections of the image/background being used. */
+    background-position: bottom;
+    
+    /* background-size: this would allow us to set the size of our background. 
+    checkout https://developer.mozilla.org/en-US/docs/Web/CSS/background-size for more info on background-size */
+    background-size: cover;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
