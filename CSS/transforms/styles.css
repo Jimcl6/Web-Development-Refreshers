@@ -8,8 +8,7 @@ h1 {
     margin: 20px;
     font-family:Courier, monospace;
     font-weight: lighter;
-    transition-duration: 100ms;
-    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
 }
 
 h1:hover {
@@ -17,6 +16,8 @@ h1:hover {
     transition-duration: 500ms;
     transform:translateY(-2px);
     transition-timing-function: ease-in-out;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 h1:nth-of-type(2n) {
