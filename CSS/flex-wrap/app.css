@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    background-color: #003049;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    flex-wrap: nowrap; /* The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked. */
+    flex-direction: row;
+    /* justify-content depends on the flex-direction, the way that it behaves depends on the main axis */
+    /* justify-content: flex-end;  */
+    /* this pushes the content to the end of the axis.*/
+    /* justify-content: center;  */
+    /* this will center the content to the center of the axis.*/
+    /* justify-content: space-between;  */
+    /* this will add evenly distributed spaces in between the contents. */
+    /* justify-content: space-around;  */
+    /* this will distribute spaces around the elements/content of the container */
+    /* justify-content: space-evenly;  */
+    /*similar to "space-between" diff is only this is much more even compared to "space-between"*/
+}
+
+#container div {
+    width:6em;
+    height:6em;
+}
